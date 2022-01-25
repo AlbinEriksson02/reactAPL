@@ -3,7 +3,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(4, 127, 184) 0;
+    background: repeating-radial-gradient(rgb(225, 1, 255), rgb(30, 255, 0)1%, rgb(27, 8, 80) 2%,rgb(255, 0, 0) 3%, rgb(200, 255, 0) 4%);;
+    color: rgb(251, 255, 0);
+    height: 100vh;
 }
 
 ol, ul {
@@ -32,17 +34,18 @@ ol, ul {
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 10vw;
+    width: 10vh; 
     color: rgb(251, 255, 0)
+
 }
 
 .square:hover {
-    border: 10px solid rgb(49, 46, 46)
+    background: linear-gradient(225deg, rgb(2, 95, 18) 10%, rgb(50, 1, 165) 100%);
 
 }
 
 .kbd-navigation .square:focus {
-    background: #ddd;
+    background: rgb(167, 55, 55);
 }
 
 .game {
@@ -52,4 +55,12 @@ ol, ul {
 
 .game-info {
     margin-left: 20px;
+}
+button{
+    background: linear-gradient(90deg, rgb(2, 95, 18) 10%, rgb(50, 1, 165) 100%);
+    color: rgb(251, 255, 0);
+    padding: 5%;
+}
+button:hover{
+    background: linear-gradient(270deg, rgb(2, 95, 18) 10%, rgb(50, 1, 165) 100%);
 }
